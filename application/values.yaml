@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: us-central1-docker.pkg.dev/evident-apricot-388703/nodejs/nodejs
+  repository: us-central1-docker.pkg.dev/evident-apricot-388703/nodejs
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "3.0.0"
