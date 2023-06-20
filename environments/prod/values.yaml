@@ -14,11 +14,11 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
     acme.cert-manager.io/http01-edit-in-place: "true"
   hosts:
-    - host: prod.azimbaev.link
+    - host: prodnodejs.azimbaev.link
       paths:
         - path: /
           pathType: ImplementationSpecific
   tls: 
     - secretName: nodejs-prod-tls
       hosts:
-        - prod.azimbaev.link
+        - prodnodejs.azimbaev.link
